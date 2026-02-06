@@ -32,12 +32,6 @@ Desarrollado como proyecto para la asignatura de **Arquitecturas Específicas y 
     * Gestión de G-code nativa de Marlin.
 * **Diseño 3D:** Repetier / Slic3r para la laminación de piezas.
 
-## 📂 Estructura del Repositorio
-* `/src`: Código fuente del firmware (basado en Marlin).
-* `/3D_Models`: Archivos STL de las piezas impresas (Base, soporte motor, tensor, etc.).
-* `/Schematics`: Diagramas de conexión eléctrica.
-* `/Docs`: Memoria técnica detallada del proyecto.
-
 ## 🔧 Instalación y Configuración
 1.  **Carga del Firmware:** Abre el proyecto en Arduino IDE y carga el código en tu placa.
 2.  **Calibración:** Antes de servir, es necesario calibrar los finales de carrera (Home) para establecer las coordenadas `(0,0)`.
